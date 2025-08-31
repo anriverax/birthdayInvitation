@@ -7,7 +7,7 @@ import { Invitation } from './components/invitation';
 
 function App() {
 	return (
-		<div className='flex justify-center items-center relative h-dvh sm:bg-amber-500 bg-violet-500'>
+		<div className='flex justify-center items-center relative h-screen '>
 			<Cloud />
 			<div className='bg-white relative rounded-t-full w-full py-20 mt-40 h-[calc(100dvh-10rem)]'>
 				<img src='/sol.png' alt='Mi logo' width='200' className='absolute -top-35 -left-1' />

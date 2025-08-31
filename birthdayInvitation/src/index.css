@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+body {
+	@apply h-dvh bg-gradient-to-b from-sky-300 via-sky-200 to-blue-100;
+}
+
+.cloud {
+	background: linear-gradient(top, #bff 5%, #dff 100%);
+	background: -webkit-linear-gradient(top, #fff 1%, #bff 100%);
+	background: -moz-linear-gradient(top, #bff 5%, #dff 100%);
+	background: -ms-linear-gradient(top, #bff 5%, #dff 100%);
+	background: -o-linear-gradient(top, #bff 5%, #dff 100%);
+}
+.cloud:after,
+.cloud:before {
+	content: '';
+	position: absolute;
+	background: #dff;
+	z-index: -1;
+}
+
+.shadow {
+	width: 350px;
+	position: absolute;
+	bottom: -10px;
+	background: #000;
+	z-index: -1;
+	box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+}
